@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Who is to to blame?</title>
+
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body class="container">
+
+<div class="row" id="step-form">
+    <div class="col-md-7 col-md-offset-2">
+
+        <h1>Who is to blame?</h1>
+
+        <p>Neuroanalytical multiparameter processor to determine the resonsible.
+
+        <form class="form-horizontal">
+            <div class="form-group">
+                <label class="col-sm-2 control-label">Project name</label>
+                <div class="col-sm-10">
+                    <input type="text" name="project" class="form-control" value="NDA" />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-sm-2 control-label">Project members</label>
+                <div class="col-sm-10">
+                    <textarea name="members" class="form-control" rows=10 cols=50>I
+You
+He
+She
+They
+We
+Nobody
+</textarea>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-lg btn-block">Determine</button>
+        </form>
+    </div>
+
+    <div class="col-md-7 col-md-offset-2">
+        Recommended for use in the management of any IT company.
+    </div>
+</div>
+
+
+
+
+
+<div class="row" id="step-processing"  style="display:none">
+    <div class="col-md-7 col-md-offset-2">
+        <h1>Processing</h1>
+
+        <p><img src="blame.gif" />
+
+        <p>Cloud cluster is analyzing the cause-and-effect relationships, please wait...
+    </div>
+</div>
+
+
+
+
+<div class="row" id="step-results" class="hidden" style="display:none">
+    <div class="col-md-7 col-md-offset-2">
+
+    <h1>Results of "<span class="projectName"></span>" project analysis</h1>
+
+    <p>Artifical clustered intelligence has whispered that <b class="projectName"></b> is responsible for everything on <b class="memberName">?</b>.
+
+    <button type="submit" class="btn btn-default btn-lg btn-block">Wrong, repeat!</button>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<script src="//code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+<script src="blame.js"></script>
